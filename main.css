@@ -22,25 +22,6 @@ body {
   display: inline-block;
 }
 
-.lowcenter {
-  margin: 0px auto;
-  width: 900px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.row {
-  height: 50px;
-}
-
-.item {
-  float: left;
-  width: 33%;
-  font-family: "Proxima Nova", sans-serif;
-  font-weight: 100;
-  color: #8f8f8f;
-}
-
 .btn {
   font-family: "Proxima Nova", sans-serif;
   font-weight: 100;
@@ -77,4 +58,32 @@ h1 {
   width: 600px;
   margin: 0px auto;
   padding-bottom: 30px;
+}
+
+ul.items {
+  margin: 0px auto;
+  width: 800px;
+  padding:30px 0px;
+  text-align:center;
+}
+
+ul.items li {
+  display:inline-block;
+  list-style:none;
+  text-align:center;
+  width:200px;
+  margin:30px 20px;
+}
+
+ul.items li img {
+  margin: 0px auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+ul.items li span {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 100;
+  color: #8f8f8f;
+
 }
