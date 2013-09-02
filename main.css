@@ -1,0 +1,73 @@
+body {
+  text-align:center;
+  margin:0px;
+}
+.content {
+  background-color:#F7F7F7;
+  
+
+}
+.center {
+  margin:0px auto;
+  width:800px;  
+  padding-bottom:50px;
+  padding-top:30px;
+}
+.logo {
+  background-image:url(logo.png);
+  background-repeat:no-repeat;
+  width:600px;
+  height:200px;
+  display:inline-block;
+}
+.lowcenter {
+  margin:0px auto;
+  width:900px;
+  padding-top:30px;
+  padding-bottom:30px;
+
+}
+.row {
+height:50px;
+}
+.item {
+  float:left;
+  width:33%;
+    font-family: "Proxima Nova", sans-serif;
+  font-weight:100;
+  color:#8f8f8f;
+}
+.btn{
+      font-family: "Proxima Nova", sans-serif;
+  font-weight:100;
+  padding:10px;
+width:250px;
+color: #ffffff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background-color: #9bb43b;
+
+display:inline-block;
+}
+
+.signup {text-align:center;
+  padding-top:30px;
+}
+.email {
+  padding: 10px;
+  border: 1px solid #C4C4C4;
+  width: 350px;
+  margin-top: 20px;
+}
+.final{
+  background-color:
+}
+h1 {
+  font-family:"Proxima Nova Thin", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size-adjust:0.488;
+  font-weight:100;
+  font-style:normal;
+  color: #898686;
+  width:600px;
+  margin:0px auto;
+  padding-bottom:30px;
+}
