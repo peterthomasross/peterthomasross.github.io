@@ -73,6 +73,7 @@ ul.items li {
   text-align:center;
   width:200px;
   margin:30px 20px;
+  vertical-align:top;
 }
 
 ul.items li img {
