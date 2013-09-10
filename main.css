@@ -19,30 +19,29 @@ body {
   margin-bottom:40px;
 }
 .btn {
-  font-family: "Proxima Nova", sans-serif;
+  font-family:"Proxima Nova", sans-serif;
   color: #FFF;
-  display: inline-block;   
-  font-size: 14px;   
-  font-weight: bold;   
-  text-align:center;            
-  padding: 14px 40px;      
-  outline:none;   
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  text-align:center;
+  padding: 14px 40px;
+  outline:none;
   border-radius: 2px;
   border:0;
   cursor:pointer;
   -webkit-font-smoothing: antialiased;
   background-color: #9BB43B;
 }
-
 .btn:active {
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3) inset;
-  -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.3) inset; 
-  -o-box-shadow: 0 2px 3px rgba(0,0,0,0.3) inset; 
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3) inset;
+  -o-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3) inset;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3) inset;
   background-color: #829929;
 }
-.btn-small{
- padding:8px 40px; 
+.btn-small {
+  padding:8px 40px;
 }
 .signup {
   text-align: center;
@@ -92,10 +91,9 @@ ul.items li span {
   margin-top: 20px;
   display:inline-block;
 }
-
 p {
   font-family:"Proxima Nova", sans-serif;
   font-weight: 100;
-    color: #8f8f8f;
+  color: #8f8f8f;
   line-height:30px;
 }
