@@ -1,6 +1,12 @@
 body {
   text-align: center;
   margin: 0px;
+      -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .content {
   background-color: #F7F7F7;
@@ -90,10 +96,17 @@ ul.items li span {
   width: 200px;
   margin-top: 20px;
   display:inline-block;
+  outline:none;
+}
+.email:focus {
+border-color:#9BB43B
 }
 p {
   font-family:"Proxima Nova", sans-serif;
   font-weight: 100;
   color: #8f8f8f;
   line-height:30px;
+}
+img {
+height: 35px;
 }
